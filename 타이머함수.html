@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script>
+        
+        i=11
+        // 0이 되면 함수를 종료한다.
+        p1=function(){
+            i=i-1;
+            if (i < 0) {
+                clearInterval(p1,5000);
+            }
+            else {
+                window.document.write(i+"<br/>");}
+            }         
+        // setTimeout(p1,5000)
+        setInterval(p1,5000);
+
+            
+                
+        
+    
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
